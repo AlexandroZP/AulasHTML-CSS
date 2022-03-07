@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calc">
+      <form action="" name="Calculator" class="calculator">
+          <div class="display">
+              <input type="text" class="text visor" name="text1" disabled>
+              <input type="text" class="text button" name="text2" value="C" onclick="location.reload()">
+          </div>
+            <div class="teclado">
+                <div class="filaU">
+                  <input type="button" class="num" name="btn9" value="9" onclick="calcular(btn9.value)">
+                  <input type="button" class="num" name="btn8" value="8"onclick="calcular(btn8.value)">
+                  <input type="button" class="num" name="btn7" value="7"onclick="calcular(btn7.value)">
+                  <input type="button" class="num" name="addbtn" value="+"onclick="calcular(addbtn.value)">
+                </div>    
+                <div class="filaD">
+                  <input type="button" class="num" name="btn6" value="6"onclick="calcular(btn6.value)">
+                  <input type="button" class="num" name="btn5" value="5"onclick="calcular(btn5.value)">
+                  <input type="button" class="num" name="btn4" value="4"onclick="calcular(btn4.value)">
+                  <input type="button" class="num" name="subbtn" value="-"onclick="calcular(subbtn.value)">
+                </div>
+                <div class="filaT">
+                  <input type="button" class="num" name="btn3" value="3"onclick="calcular(btn3.value)">
+                  <input type="button" class="num" name="btn2" value="2"onclick="calcular(btn2.value)">
+                  <input type="button" class="num" name="btn1" value="1"onclick="calcular(btn1.value)">
+                  <input type="button" class="num" name="multbtn" value="*" onclick="calcular(multbtn.value)">
+                </div>
+                <div class="filaQ">
+                  <input type="button" class="num" name="pontbtn" value="." onclick="calcular(pontbtn.value)">
+                  <input type="button" class="num" name="btn0" value="0" onclick="calcular(btn0.value)">
+                  <input type="button" class="num" name="equalsbtn" value="=" onclick="text1.value=eval(text1.value)">
+                  <input type="button" class="num" name="divibtn" value="/" onclick="calcular(divibtn.value)">
+              </div>
+      </form>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>

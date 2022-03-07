@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to right ,rgb(14, 17, 71),rgb(77, 55, 202), rgb(14, 17, 71));
+
+}
+.login{
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0.5%;
+    background-color: rgba(7, 5, 0, 0.699);
+    color: white;
+    width: 50%;
+    height: 350px;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.login .form{
+    color: white;
+    position: relative;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.login .form p {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.login .form input{
+    border: none;
+    border-bottom: solid rgb(0, 0, 0);
+    background-color: transparent;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    outline: none;
+}
+.login .form button[type="submit"]{
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    margin-top: 10%;
+    color: white;
+    position: absolute;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(6, 6, 43);
+    cursor: pointer;
+}
+
+.login .form input[type="checkbox"]{
+    text-align: left;
+    margin-top: 3%;
+    position: relative;
+    width: 10px;
+    padding: auto;
+}
+.login .form label{
+    display: inline-flex;
+    position: absolute;
+    font-size: 1em;
+    margin-left: 1%;
+    margin-top: 1.5%;
+}
+.login .form a{
+    margin-left: 32%;
+    margin-top: 1.5%;
+    font-size: 1em;
+    position: flex;
+    color: white;
+    text-decoration: none;
+}
+.login .form button[type="submit"]:hover{
+    background-color:rgb(43, 43, 88) ;
+}
+.login .form a:hover{
+    color: rgb(139, 137, 132);
+}
