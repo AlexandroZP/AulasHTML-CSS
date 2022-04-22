@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            box-shadow: 4px 6px 10px 1px black;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        col.cnome{
+            background-color: rgb(102, 105, 100);
+        }
+        col.cgrupo{
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Cláudia</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Gerente</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Estágiario</td>
+        </tr>
+        <tr>
+            <td>Paula</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Diretora</td>
+        </tr>
+        <tr>
+            <td>Marcos Paulo</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Corretor</td>
+        </tr>
+        <tr>
+            <td>Luiz</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Fernanda</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Escritora</td>
+        </tr>
+    </table>
+</body>
+</html>
